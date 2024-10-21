@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 function wrapTextWithEmoji(text: string, emojiSet: string): string {
   return text
     .split("")
-    .map((char) => (char !== " " ? `:${emojiSet}-${char}:` : char))
+    .map((char) => (char == " " ? "   " : `:${emojiSet}-${char}:`))
     .join("");
 }
 
@@ -15,6 +15,7 @@ const emojiSets = [
     title: "Plasma Letters",
     icon: "plasma-letter-a.gif",
   },
+  { value: "magazine-letter", title: "Magazine Letters", icon: "magazine-letter-a.png" },
   { value: "cake-letter", title: "Cake Letters", icon: "cake-letter-a.gif" },
   {
     value: "keyboard-letter",
