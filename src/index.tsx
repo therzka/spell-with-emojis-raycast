@@ -1,10 +1,16 @@
-import { ActionPanel, Form, Action } from "@raycast/api";
+import { ActionPanel, Form, Action, Icon } from "@raycast/api";
 import { useState, useEffect } from "react";
 
 function wrapTextWithEmoji(text: string, emojiSet: string): string {
   return text
     .split("")
-    .map((char) => (char == " " ? "   " : `:${emojiSet}-${char}:`))
+    .map((char) => {
+      if (char === " ") return " ";
+      if (emojiSet !== "ransom-note") return `:${emojiSet}-${char}:`;
+
+      const randomEmojiSetIndex = Math.floor(Math.random() * emojiSets.length);
+      return `:${emojiSets[randomEmojiSetIndex].value}-${char}:`;
+    })
     .join("");
 }
 
@@ -42,7 +48,15 @@ const emojiSets = [
     title: "Alphabet White Letters",
     icon: "alphabet-white-a.png",
   },
-];
+] as const;
+const emojiOptions = [
+  {
+    value: "ransom-note",
+    title: "Ransom note mode (random)",
+    icon: Icon.Shuffle,
+  },
+  ...emojiSets,
+] as const;
 
 function Command() {
   const [text, setText] = useState("");
@@ -77,7 +91,7 @@ function Command() {
         value={emojiSet}
         onChange={setEmojiSet}
       >
-        {emojiSets.map((set) => (
+        {emojiOptions.map((set) => (
           <Form.Dropdown.Item
             key={set.value}
             value={set.value}
