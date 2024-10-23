@@ -8,8 +8,9 @@ Want to be obnoxious af in Slack? Look no further than this Raycast extension th
 Until I figure out how to publish this to the Raycast store: 
 
 1. clone this repo
-2. navigate to the directory and run `npm run build`
-3. use the "Import Extension" command in Raycast and select the directory
+2. navigate to the directory and run `npm install`
+3. once things finish install, build the extension with `npm run build`
+4. use the "Import Extension" command in Raycast and select the directory
 
 ## Usage Instructions
 
