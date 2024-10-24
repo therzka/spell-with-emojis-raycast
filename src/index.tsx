@@ -5,7 +5,7 @@ function wrapTextWithEmoji(text: string, emojiSet: string): string {
   return text
     .split("")
     .map((char) => {
-      if (char === " ") return " ";
+      if (char === " ") return "   ";
       if (emojiSet !== "ransom-note") return `:${emojiSet}-${char}:`;
 
       const randomEmojiSetIndex = Math.floor(Math.random() * emojiSets.length);
