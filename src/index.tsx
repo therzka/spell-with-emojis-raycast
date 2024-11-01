@@ -50,12 +50,12 @@ const emojiSets = [
   },
 ] as const;
 const emojiOptions = [
+  ...emojiSets,
   {
     value: "ransom-note",
     title: "Ransom note mode (random)",
     icon: Icon.Shuffle,
   },
-  ...emojiSets,
 ] as const;
 
 function Command() {
