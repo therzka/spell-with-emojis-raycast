@@ -21,6 +21,11 @@ const emojiSets = [
     title: "Plasma Letters",
     icon: "plasma-letter-a.gif",
   },
+  {
+    value: "dancing-letter",
+    title: "Dancing Letters",
+    icon: "dancing-letter-a.gif",
+  },
   { value: "magazine-letter", title: "Magazine Letters", icon: "magazine-letter-a.png" },
   { value: "cake-letter", title: "Cake Letters", icon: "cake-letter-a.gif" },
   {

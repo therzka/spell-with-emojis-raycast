@@ -30,3 +30,4 @@ Until I figure out how to publish this to the Raycast store:
 - ![Image](assets/neon-block-letter-a.gif) Neon Block Letters (save to Slack as `neon-block-letter-*`): [Source TBD, can find piecemeal on emoji.gg]
 - ![Image](assets/alphabet-white-a.png) White Alphabet Block Letters (save to Slack as `alphabet-white-letter-*`): [Source TBD, can find piecemeal on emoji.gg]
 - ![Image](assets/magazine-letter-a.png) Magazine Cutout Letters (save to Slack as `magazine-letter-*`): https://quintussential.com/archive/2021/06/14/Cut-Out-Letters-for-Slack/
+- ![Image](assets/dancing-letter-a.gif) Dancing Letters (save to Slack as `dancing-letter-*`): https://tenor.com/search/dancing-letter-gifs
