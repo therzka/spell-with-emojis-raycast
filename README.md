@@ -1,7 +1,7 @@
 # spell-with-emojis-raycast
 Want to be obnoxious af in Slack? Look no further than this Raycast extension that pastes the text you enter as emojis. 
 
-<img width="518" alt="image" src="https://github.com/user-attachments/assets/4cdeb0d9-94ad-40f9-aac2-0f44e3bbcbd8">
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/993770e5-c76d-416d-82c2-72dd93209222">
 
 
 ## Installation
