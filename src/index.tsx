@@ -49,6 +49,16 @@ const emojiSets = [
     icon: "hellokitty-letter-a.png",
   },
   {
+    value: "sega-letter",
+    title: "Sega Letters",
+    icon: "sega-letter-a.gif",
+  },
+  {
+    value: "sonic-letter",
+    title: "Sonic Letters",
+    icon: "sonic-letter-a.png",
+  },
+  {
     value: "alphabet-white",
     title: "Alphabet White Letters",
     icon: "alphabet-white-a.png",
