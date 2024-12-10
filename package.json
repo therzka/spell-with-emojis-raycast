@@ -3,7 +3,7 @@
     "name": "spell-with-emoji-letters",
     "title": "Spell with Emoji Letters",
     "description": "Insert text as letter emojis in Slack",
-    "icon": "icon.png",
+    "icon": "a-scrabble-icon.png",
     "author": "thz",
     "categories": [
       "Fun"

@@ -15,53 +15,87 @@ function wrapTextWithEmoji(text: string, emojiSet: string): string {
 }
 
 const emojiSets = [
-  { value: "neon-letter", title: "Neon Letters", icon: "neon-letter-a.gif" },
+  { value: "neon-letter", title: "Neon", icon: "neon-letter-a.gif" },
   {
     value: "plasma-letter",
-    title: "Plasma Letters",
+    title: "Plasma",
     icon: "plasma-letter-a.gif",
   },
   {
     value: "dancing-letter",
-    title: "Dancing Letters",
+    title: "Dancing",
     icon: "dancing-letter-a.gif",
   },
-  { value: "magazine-letter", title: "Magazine Letters", icon: "magazine-letter-a.png" },
-  { value: "cake-letter", title: "Cake Letters", icon: "cake-letter-a.gif" },
+  {
+    value: "magazine-letter",
+    title: "Magazine",
+    icon: "magazine-letter-a.png",
+  },
+  { value: "cake-letter", title: "Cake", icon: "cake-letter-a.gif" },
   {
     value: "keyboard-letter",
-    title: "Keyboard Letters",
+    title: "Keyboard",
     icon: "keyboard-letter-a.png",
   },
   {
     value: "cookie-letter",
-    title: "Cookie Letters",
+    title: "Cookie",
     icon: "cookie-letter-a.png",
   },
   {
     value: "neon-block-letter",
-    title: "Neon Block Letters",
+    title: "Neon Block",
     icon: "neon-block-letter-a.gif",
   },
   {
     value: "hellokitty-letter",
-    title: "Hello Kitty Letters",
+    title: "Hello Kitty",
     icon: "hellokitty-letter-a.png",
   },
   {
     value: "sega-letter",
-    title: "Sega Letters",
+    title: "Sega",
     icon: "sega-letter-a.gif",
   },
   {
     value: "sonic-letter",
-    title: "Sonic Letters",
+    title: "Sonic",
     icon: "sonic-letter-a.png",
   },
   {
     value: "alphabet-white",
-    title: "Alphabet White Letters",
+    title: "Alphabet White",
     icon: "alphabet-white-a.png",
+  },
+  {
+    value: "alphabet-yellow",
+    title: "Alphabet Yellow",
+    icon: "alphabet-yellow-a.png",
+  },
+  {
+    value: "fww",
+    title: "Fireworks Black",
+    icon: "fww-a.gif",
+  },
+  {
+    value: "fwb",
+    title: "Fireworks White",
+    icon: "fwb-a.gif",
+  },
+  {
+    value: "c64",
+    title: "Commodore 64",
+    icon: "c64-a.png",
+  },
+  {
+    value: "cs",
+    title: "Comic Sans",
+    icon: "cs-a.png",
+  },
+  {
+    value: "scrabble",
+    title: "Scrabble Tiles",
+    icon: "a-scrabble.jpg",
   },
 ] as const;
 const emojiOptions = [
