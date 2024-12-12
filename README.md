@@ -39,3 +39,4 @@ Until I figure out how to publish this to the Raycast store:
 - ![Image](assets/a-scrabble.jpg) Scrabble Tiles (save to Slack as `scrabble-*`): [TBD]
 - ![Image](assets/c64-a.png) Commodore 64 Letters (save to Slack as `c64-*`): [TBD]
 - ![Image](assets/cs-a.png) Comic Sans (save to Slack as `cs-*`): [TBD]
+- ![Image](assets/sm64-letter-a.png) Super Mario 64 (save to Slack as `sm64-letter-*`): [TBD]

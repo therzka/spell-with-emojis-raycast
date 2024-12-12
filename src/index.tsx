@@ -97,6 +97,11 @@ const emojiSets = [
     title: "Scrabble Tiles",
     icon: "a-scrabble.jpg",
   },
+  {
+    value: "sm64-letter",
+    title: "Super Mario 64",
+    icon: "sm64-letter-a.png",
+  },
 ] as const;
 const emojiOptions = [
   ...emojiSets,
