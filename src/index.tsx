@@ -102,6 +102,11 @@ const emojiSets = [
     title: "Super Mario 64",
     icon: "sm64-letter-a.png",
   },
+  {
+    value: "donut-letter",
+    title: "Donuts",
+    icon: "donut-letter-a.gif",
+  },
 ] as const;
 const emojiOptions = [
   ...emojiSets,
