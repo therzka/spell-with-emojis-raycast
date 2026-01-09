@@ -110,32 +110,37 @@ const emojiSets = [
   {
     value: "metal-slug",
     title: "Metal Slug",
-    icon: "metal-slug-a.png",
+    icon: "metal-slug-letter-a.png",
   },
   {
     value: "slime",
     title: "Slime",
-    icon: "slime-a.png",
+    icon: "slime-letter-a.png",
   },
   {
     value: "janky",
     title: "Janky",
-    icon: "janky-a.png",
+    icon: "janky-letter-a.png",
   },
   {
     value: "doom",
     title: "Doom",
-    icon: "doom-a.png",
+    icon: "doom-letter-a.png",
   },
   {
     value: "mario-pinball",
     title: "Mario Pinball",
-    icon: "mario-pinball-a.png",
+    icon: "mario-pinball-letter-a.png",
   },
   {
     value: "dk64",
     title: "Donkey Kong 64",
     icon: "dk64-a.png",
+  },
+  {
+    value: "pacman",
+    title: "Pac-Man",
+    icon: "pacman-letter-a.png",
   },
 ] as const;
 const emojiOptions = [
