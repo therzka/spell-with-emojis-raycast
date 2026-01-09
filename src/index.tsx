@@ -134,7 +134,7 @@ const emojiSets = [
   },
   {
     value: "dk64",
-    title: "DK64",
+    title: "Donkey Kong 64",
     icon: "dk64-a.png",
   },
 ] as const;
