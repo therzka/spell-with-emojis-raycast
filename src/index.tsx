@@ -128,12 +128,12 @@ const emojiSets = [
     icon: "doom-letter-a.png",
   },
   {
-    value: "mario-pinball",
+    value: "mario-pinball-letter",
     title: "Mario Pinball",
     icon: "mario-pinball-letter-a.png",
   },
   {
-    value: "dk64-letter-",
+    value: "dk64-letter",
     title: "Donkey Kong 64",
     icon: "dk64-letter-a.png",
   },
