@@ -107,6 +107,41 @@ const emojiSets = [
     title: "Donuts",
     icon: "donut-letter-a.gif",
   },
+  {
+    value: "metal-slug-letter",
+    title: "Metal Slug",
+    icon: "metal-slug-letter-a.png",
+  },
+  {
+    value: "slime-letter",
+    title: "Slime",
+    icon: "slime-letter-a.png",
+  },
+  {
+    value: "janky-letter",
+    title: "Janky",
+    icon: "janky-letter-a.png",
+  },
+  {
+    value: "doom-letter",
+    title: "Doom",
+    icon: "doom-letter-a.png",
+  },
+  {
+    value: "mario-pinball-letter",
+    title: "Mario Pinball",
+    icon: "mario-pinball-letter-a.png",
+  },
+  {
+    value: "dk64-letter",
+    title: "Donkey Kong 64",
+    icon: "dk64-letter-a.png",
+  },
+  {
+    value: "pacman-letter",
+    title: "Pac-Man",
+    icon: "pacman-letter-a.png",
+  },
 ] as const;
 const emojiOptions = [
   ...emojiSets,
