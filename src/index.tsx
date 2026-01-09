@@ -108,22 +108,22 @@ const emojiSets = [
     icon: "donut-letter-a.gif",
   },
   {
-    value: "metal-slug",
+    value: "metal-slug-letter",
     title: "Metal Slug",
     icon: "metal-slug-letter-a.png",
   },
   {
-    value: "slime",
+    value: "slime-letter",
     title: "Slime",
     icon: "slime-letter-a.png",
   },
   {
-    value: "janky",
+    value: "janky-letter",
     title: "Janky",
     icon: "janky-letter-a.png",
   },
   {
-    value: "doom",
+    value: "doom-letter",
     title: "Doom",
     icon: "doom-letter-a.png",
   },
@@ -138,7 +138,7 @@ const emojiSets = [
     icon: "dk64-a.png",
   },
   {
-    value: "pacman",
+    value: "pacman-letter",
     title: "Pac-Man",
     icon: "pacman-letter-a.png",
   },
