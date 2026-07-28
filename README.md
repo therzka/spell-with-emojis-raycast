@@ -27,6 +27,7 @@ Until I figure out how to publish this to the Raycast store:
 - ![Image](assets/keyboard-letter-a.png) Keyboard Letters (save to Slack as `keyboard-letter-*`): [source](https://emoji.gg/pack/5187-letter-keys)
 - ![Image](assets/cookie-letter-a.png) Cookie Letters (save to Slack as `cookie-letter-*`): [source](https://emoji.gg/pack/6754-cookie-letters-and-punctuation)
 - ![Image](assets/cake-letter-a.gif) Cake Letters (save to Slack as `cake-letter-*`): [source](https://emoji.gg/pack/5085-cake-alphabet)
+- ![Image](assets/green-letter-a.gif) Green Lil' Guy Letters (save to Slack as `green-letter-*`): [source](https://slackmojis.com)
 - ![Image](assets/neon-block-letter-a.gif) Neon Block Letters (save to Slack as `neon-block-letter-*`): [Source TBD, can find piecemeal on emoji.gg]
 - ![Image](assets/alphabet-white-a.png) White Alphabet Block Letters (save to Slack as `alphabet-white-letter-*`): [Source TBD, can find piecemeal on emoji.gg
 - ![Image](assets/alphabet-yellow-a.png) Yellow Alphabet Block Letters (save to Slack as `alphabet-yellow-letter-*`): [Source TBD, can find piecemeal on emoji.gg]

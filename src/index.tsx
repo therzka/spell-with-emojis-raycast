@@ -33,6 +33,11 @@ const emojiSets = [
   },
   { value: "cake-letter", title: "Cake", icon: "cake-letter-a.gif" },
   {
+    value: "green-letter",
+    title: "Green Lil' Guy",
+    icon: "green-letter-a.gif",
+  },
+  {
     value: "keyboard-letter",
     title: "Keyboard",
     icon: "keyboard-letter-a.png",
