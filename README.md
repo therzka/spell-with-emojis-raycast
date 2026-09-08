@@ -42,6 +42,7 @@ Until I figure out how to publish this to the Raycast store:
 - ![Image](assets/cs-a.png) Comic Sans (save to Slack as `cs-*`): [TBD]
 - ![Image](assets/sm64-letter-a.png) Super Mario 64 (save to Slack as `sm64-letter-*`): [TBD]
 - ![Image](assets/donut-letter-a.gif) Donuts (save to Slack as `donut-letter-*`): [TBD]
+- ![Image](assets/metal-gear-solid-letter-a.png) Metal Gear Solid (save to Slack as `metal-gear-solid-letter-*`): [source](https://www.fontspace.com/speedtest-font-f39890)
 - ![Image](assets/metal-slug-letter-a.png) Metal Slug (save to Slack as `metal-slug-letter-*`): [source](https://www.spriters-resource.com/neo_geo_ngcd/ms3/asset/29721/)
 - ![Image](assets/slime-letter-a.png) Slime (save to Slack as `slime-letter-*`): [source](https://c.eev.ee/doom-text-generator/)
 - ![Image](assets/janky-letter-a.png) Janky (save to Slack as `janky-letter-*`): [TBD]

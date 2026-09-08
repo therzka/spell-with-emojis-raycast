@@ -36,3 +36,23 @@ pasting or copying into Slack.
 - Document new emoji sets in the "Available Emoji Sets" section of `README.md`, including the
   Slack shortcode prefix and a `source` link (or `[TBD]` if unknown), matching the existing list
   format.
+
+## Adding an Emoji Letter Set
+
+When given a Slack shortcode prefix and a source for a new letter style:
+
+1. Add the set to `emojiSets` in `src/index.tsx`. Do not change `wrapTextWithEmoji` or add the set
+   directly to `emojiOptions`; the existing data flow automatically adds it to the dropdown and
+   ransom-note mode.
+2. Add a representative lowercase `a` preview to `assets/`, using a filename derived from the
+   shortcode prefix (for example, `metal-gear-solid-letter-a.png`). Prefer a compact, tightly
+   cropped image consistent with the existing dropdown icons.
+3. If the source is a downloadable font, use the font only as a temporary input to render the
+   preview image unless the user explicitly requests that the font or an asset-generation script
+   be committed.
+4. Add the set to README.md's "Available Emoji Sets" list with the preview image, display name,
+   Slack prefix ending in `-*`, and source URL.
+5. Run `npm run lint` and `npm run build`, and verify that the icon path in `emojiSets` exists.
+
+Do not create or commit Superpowers design specifications or implementation plan files in this
+repository. Keep planning in the session and make the requested repository changes directly.

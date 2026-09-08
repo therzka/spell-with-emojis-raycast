@@ -113,6 +113,11 @@ const emojiSets = [
     icon: "donut-letter-a.gif",
   },
   {
+    value: "metal-gear-solid-letter",
+    title: "Metal Gear Solid",
+    icon: "metal-gear-solid-letter-a.png",
+  },
+  {
     value: "metal-slug-letter",
     title: "Metal Slug",
     icon: "metal-slug-letter-a.png",
