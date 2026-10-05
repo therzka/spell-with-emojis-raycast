@@ -152,6 +152,11 @@ const emojiSets = [
     title: "Pac-Man",
     icon: "pacman-letter-a.png",
   },
+  {
+    value: "futurama-letter",
+    title: "Futurama",
+    icon: "futurama-letter-a.png",
+  },
 ] as const;
 const emojiOptions = [
   ...emojiSets,

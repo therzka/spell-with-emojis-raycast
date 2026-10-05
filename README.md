@@ -50,3 +50,4 @@ Until I figure out how to publish this to the Raycast store:
 - ![Image](assets/mario-pinball-letter-a.png) Mario Pinball (save to Slack as `mario-pinball-letter-*`): [source](https://www.spriters-resource.com/game_boy_advance/mariopinballland/asset/142815/)
 - ![Image](assets/dk64-letter-a.png) Donkey Kong 64 (save to Slack as `dk64-letter-*`): [source](https://www.spriters-resource.com/nintendo_64/donkeykong64/asset/40219/)
 - ![Image](assets/pacman-letter-a.png) Pac-Man (save to Slack as `pacman-letter-*`): [source](https://www.spriters-resource.com/custom_edited/pacmancustoms/asset/197918/)
+- ![Image](assets/futurama-letter-a.png) Futurama (save to Slack as `futurama-letter-*`): [source](https://pixelframe.design/futurama-font-logo-title-card-generator/)
